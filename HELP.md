@@ -1,5 +1,3 @@
-# Help
-
 # Getting Started
 
 ### Reference Documentation
