@@ -1,6 +1,6 @@
 package com.otech.king.datasource;
 
-//import com.zaxxer.hikari.HikariDataSource;
+import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
@@ -9,14 +9,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class PostgresDatasource {
 
-    /*@Bean
-    @ConfigurationProperties()
+    @Bean
+    @ConfigurationProperties("app.datasource")
     public HikariDataSource hikariDataSource(){
         return DataSourceBuilder
                 .create()
                 .type(HikariDataSource.class)
                 .build();
-    }*/
-    //private static HikariConfig config = new HarikariConfig();
-    //private static HikariDataSource ds;
+    }
 }

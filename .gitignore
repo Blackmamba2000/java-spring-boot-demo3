@@ -19,6 +19,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 $RECYCLE.BIN/
+.mvn/
 
 # Windows Installer files
 *.cab
@@ -178,3 +179,4 @@ classes/
 buildSrc/build
 /spring-*/build
 /src/asciidoc/build
+src/main/resources/db/
