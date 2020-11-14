@@ -19,7 +19,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 $RECYCLE.BIN/
-.mvn/
+!.mvn/wrapper/maven-wrapper.jar
 
 # Windows Installer files
 *.cab
